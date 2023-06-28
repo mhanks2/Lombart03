@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- style -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style2.css" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/662346788c.js" crossorigin="anonymous"></script>
+
+    <!-- data aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- style khusus -->
+    <style>
+        #menu-toggle:checked + #menu {
+          display: block;
+        }
+    </style>
+
+    <title>Acara 17 Agustus Rt03/005</title>
+</head>
+<body>
+    <!-- navbar -->
+    <header class="lg:px-16 px-6 bg-white flex flex-wrap items-center pb-3 pt-3 md:pb-5">
+        <div class="flex-1 flex justify-between items-center">
+            <img src="img/logori78-2.png" class="w-52 pt-2 md:pt-4 md:w-52 md:ml-5 -ml-8" alt="logo" />
+        </div>
+
+        <label for="menu-toggle" class="cursor-pointer lg:hidden block"
+        ><svg class="fill-current text-gray-900" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+            <title>menu</title>
+            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path></svg
+        ></label>
+        <input class="hidden" type="checkbox" id="menu-toggle" />
+
+        <div class="hidden lg:flex lg:items-center lg:w-auto w-full" id="menu">
+        <nav class="md:pt-5 md:mr-5">
+            <ul class="lg:flex items-center justify-between text-base text-gray-700 pt-4 md:pt-4 lg:pt-0 md:text-sm font-poppins">
+            <li class="nav__item">
+                <a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-red-400 hover:text-red-400 active-link" href="#home">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-red-400 hover:text-red-400" href="#member">ANGGOTA</a>
+            </li>
+            <li>
+                <a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-red-400 hover:text-red-400" href="#activity">ACARA</a>
+            </li>
+            <li>
+                <a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-red-400 hover:text-red-400" href="#kontak">KONTAK</a>
+            </li>
+            <li>
+                <a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-red-400 hover:text-red-400" href="#comment">PESAN</a>
+            </li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+  <!-- end navbar -->
+
+  <!-- Home -->
+  <section class="home section" id="home">
+    <div class="bg-gradient-to-tr from-red-400 via-red-500 to-sky-red h-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2">
+            <div class="md:ml-20 md:mr-10 md:p-1 mt-14 mb-14 md:mt-15 md:mb-15 text-center md:text-left">
+                <h1 class="text-white text-5xl font-poppins md:font-poppins" style="text-transform: uppercase" data-aos="fade-right">Semarakan Hari Kemerdekaan Indonesia Ke 78</h1>
+                <p class="font-poppins text-white mt-5 mb-10 ml-5 mr-5 md:ml-0 md:mr-0" data-aos="fade-right">Dalam menyambut hari kemerdekaan negara tercinta kita 
+                    Republik Indonesia, kami para pemuda karang taruna Rt03/005 Kelurahan Cipadu Jaya ingin mengadakan lomba untuk semua kalangan usia,mulai dari 
+                    balita sampai dewasa bisa mengikuti acara ini untuk merayakan hari kemerdekaan negara kita.
+                </p>
+                <a
+                  href="#activity" data-aos="zoom-in-right"
+                  class="font-poppins bg-white hover:bg-red-700 duration-200 text-red-500 hover:text-white rounded-full py-3 px-10 md:py-3 md:px-12 w-auto text-xl md:text-lg"
+                  >Selengkapnya <span class="fas fa-angle-double-right"></span></a
+                >
+            </div>
+
+            <div class="w-full pt-1 px-5 md:px-66 md:h-full" data-aos="fade-left">
+                <img src="img/home2.svg" alt="GambarXC" style="float: left;"/>
+            </div>
+        </div>
+    </div>
+  </section>
+  <!-- End Home -->
+
+  <!--2018-->
+  <section class="activity section" id="activity">
+    <div class="bg-white h-auto">
+        <div class="container mx-auto pt-10 pb-10">
+            <h1 class="text-center text-4xl text-extrabold text-red-500 font-poppins pt-3 md:pt-1 pb-10 mb:pb-1 px-20"><strong>ACARA LOMBA 2019</strong></h1>
+            <div class="grid grid-cols-12 font-poppins pr-10 pl-10">
+
+                <div class="col-span-12 md:col-span-6 pb-6 md:pr-7" >
+                    <div class="border rounded-md bg-white shadow" data-aos="flip-right">
+                        <div class="bg-red-500 rounded">
+                            <h1 class="pt-2 pb-2 ml-5 text-white">Gerak Jalan</h1>
+                        </div>
+                        <img class="px-3 md:px-10 pt-3 pb-4 md:pt-5 md:pb-10" src="img/lomba/gerakjalan.jpg" alt="Gerak Jalan">
+                    </div><br />
+
+                    <div class="border rounded-md bg-white shadow" data-aos="zoom-in-up">
+                        <div class="bg-red-500 rounded">
+                            <h1 class="pt-2 pb-2 ml-5 text-white">Lomba Anak</h1>
+                        </div>
+                        <img class="px-3 md:px-10 pt-3 pb-4 md:pt-5 md:pb-10" src="img/lomba/lombaanak.jpg" alt="Lomba Anak">
+                    </div><br />
+
+                    <div class="border rounded-md bg-white shadow" data-aos="zoom-in-down">
+                        <div class="bg-red-500 rounded">
+                            <h1 class="pt-2 pb-2 ml-5 text-white">Timnas Rt03</h1>
+                        </div>
+                        <img class="px-3 md:px-10 pt-3 pb-4 md:pt-5 md:pb-10" src="img/lomba/timnas.jpg" alt="Timnas">
+                    </div>
+                </div>
+
+                <div class="col-span-12 md:col-span-6 pb-6 md:pr-7">
+                    <div class="border rounded-md bg-white shadow pb-8 text-center" data-aos="flip-left">
+                        <div class="bg-red-500 rounded">
+                            <h1 class="pt-2 pb-2 ml-5 text-white text-left">Lomba Bapak-bapak dan Ibu-ibu</h1>
+                        </div>
+                        <img class="px-3 md:px-10 pt-3 pb-4 md:pt-5 md:pb-3" src="img/lomba/lombabapak.JPG" alt="lomba bapak">
+                        <img class="px-3 md:px-10 pt-3 pb-7 md:pt-1 md:pb-7" src="img/lomba/lombaibu.JPG" alt="lomba ibu">
+                        <a href="https://photos.google.com/share/AF1QipMZMbcYZdq7vOfzgMiU1S_SbJpWApr4Lui0VarxcpOHIKXEhHe8PgLZj3vjAVeJmg?key=OGdPNUpfRDZNOTMzY1hoZnZxMUdxV3lGUzF0TFl3" class="font-poppins bg-red-500 text-white hover:bg-red-900 duration-200 rounded py-2 px-5 md:py-3 md:px-12 w-auto text-base md:text-lg">View More</a>
+                    </div><br />
+
+                
+                        <!-- <img class="px-3 md:px-10 pt-3 pb-4 md:pt-5 md:pb-10" src="img/xc/Toxic.JPG" alt="Rendy Bocah Tengil"> -->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+  </section>
+  <!-- 2019 -->
+
+  <section class="activity section" id="activity">
+    <div class="bg-white h-auto">
+        <div class="container mx-auto pt-10 pb-10">
+            <h1 class="text-center text-4xl text-extrabold text-red-500 font-poppins pt-3 md:pt-1 pb-10 mb:pb-1 px-20"><strong>ACARA PANGGUNG GEMBIRA 2019</strong></h1>
+            <div class="grid grid-cols-12 font-poppins pr-10 pl-10">
+
+                <div class="col-span-12 md:col-span-6 pb-6 md:pr-7" >
+                    <div class="border rounded-md bg-white shadow" data-aos="flip-right">
+                        <div class="bg-red-500 rounded">
+                            <h1 class="pt-2 pb-2 ml-5 text-white">Acara Panggung Gembira</h1>
+                        </div>
+                        <img class="px-3 md:px-10 pt-3 pb-4 md:pt-5 md:pb-10" src="img/panggung/panggung.jpg" alt="Panggung">
+                    </div><br />
+
+                    <div class="border rounded-md bg-white shadow" data-aos="zoom-in-up">
+                        <div class="bg-red-500 rounded">
+                            <h1 class="pt-2 pb-2 ml-5 text-white">Acara Panggung Gembira</h1>
+                        </div>
+                        <img class="px-3 md:px-10 pt-3 pb-4 md:pt-5 md:pb-10" src="img/panggung/kemeriahanpanggunggembira.jpg" alt="Kemeriahan Panggung">
+                    </div><br />
+
+                    <div class="border rounded-md bg-white shadow" data-aos="zoom-in-down">
+                        <div class="bg-red-500 rounded">
+                            <h1 class="pt-2 pb-2 ml-5 text-white">Acara Panggung Gembira </h1>
+                        </div>
+                        <img class="px-3 md:px-10 pt-3 pb-4 md:pt-5 md:pb-10" src="img/panggung/pentasseni.jpg" alt="pentas seni">
+                    </div>
+                </div>
+
+                <div class="col-span-12 md:col-span-6 pb-6 md:pr-7">
+                    <div class="border rounded-md bg-white shadow pb-8 text-center" data-aos="flip-left">
+                        <div class="bg-red-500 rounded">
+                            <h1 class="pt-2 pb-2 ml-5 text-white text-left">Acara Panggung Gembira</h1>
+                        </div>
+                        <img class="px-3 md:px-10 pt-3 pb-4 md:pt-5 md:pb-3" src="img/panggung/pesensow.JPG" alt="pesensow">
+                        <img class="px-3 md:px-10 pt-3 pb-7 md:pt-1 md:pb-7" src="img/panggung/penyerahanhadiah.JPG" alt="penyerahan hadiah">
+                        <a href="https://photos.google.com/share/AF1QipNpE9xDS_r1eAC5oAiy8YAxajb5cv019yux1UGbYanlSRO4AcQqqb6yiAVlG5wuuA/photo/AF1QipPAIOOvauer87D6OsT8cGI264nwzfp697GDhrMi?key=RjJIMnFrOEpnQ2NaRzBRc1g4Nmx0OGhzSl9FOXRB" class="font-poppins bg-red-500 text-white hover:bg-red-900 duration-200 rounded py-2 px-5 md:py-3 md:px-12 w-auto text-base md:text-lg">View More</a>
+                    </div><br />
+
+                  </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!--2023-->
+    <section class="activity section" id="activity">
+        <div class="bg-white h-auto">
+            <div class="container mx-auto pt-10 pb-10">
+                <h1 class="text-center text-4xl text-extrabold text-red-500 font-poppins pt-3 md:pt-1 pb-10 mb:pb-1 px-20"><strong>ACARA 2023</strong></h1>
+                <div class="grid grid-cols-12 font-poppins pr-10 pl-10">
+    
+                    <div class="col-span-12 md:col-span-6 pb-6 md:pr-7" >
+                        <div class="border rounded-md bg-white shadow" data-aos="flip-right">
+                            <div class="bg-red-500 rounded">
+                                <h1 class="pt-2 pb-2 ml-5 text-white">Cooming Soon....</h1>
+                            </div>
+                            <img class="px-3 md:px-10 pt-3 pb-4 md:pt-5 md:pb-10" src="img/2023.jpg" alt="coming soon">
+                        </div><br />
+                    </section>
+
+  <!-- Anggota -->
+  <section class="member section" id="member">
+    <div class="bg-red-500 h-auto">
+        <div class="container mx-auto pt-5 pb-10 font-poppins">
+            <h1 class="text-center text-4xl text-extrabold text-white font-poppins pt-3 md:pt-6 pb-10 mb:pb-1 px-20"><strong>Panitia</strong></h1>
+
+            <div class="hidden md:flex">
+                <div class="grid grid-cols-1 gap-10 mt-4 mb-16 ml-10 mr-10 md:grid-cols-6">
+                    <div class="border bg-gray-200 shadow-lg rounded-md" data-aos="flip-left">
+                        <img class="md:px-10 pt-3" src="img/male.svg" alt="male" />
+                        <h1 class="mt-2 mb-1 font-poppins text-center">Raffi Hendrawan Putra</h1>
+                        <h4 class="mt-2 mb-3 font-poppins text-center text-sm text-gray-500">Ketua</h3>
+                    </div>
+                    <div class="border bg-gray-200 shadow-lg rounded-md" data-aos="flip-left">
+                        <img class="md:px-10 pt-3" src="img/male.svg" alt="male" />
+                        <h1 class="mt-2 mb-1 font-poppins text-center">Aditya Yogi Pratama</h1>
+                        <h4 class="mt-2 mb-3 font-poppins text-center text-sm text-gray-500">Wakil Ketua</h3>
+                    </div>
+                    <div class="border bg-gray-200 shadow-lg rounded-md" data-aos="flip-left">
+                        <img class="md:px-10 pt-3" src="img/female.svg" alt="male" />
+                        <h1 class="mt-2 mb-1 font-poppins text-center"> Salsabila Listiana</h1>
+                        <h4 class="mt-2 mb-3 font-poppins text-center text-sm text-gray-500">Sekertaris</h3>
+                    </div>
+                    <div class="border bg-gray-200 shadow-lg rounded-md" data-aos="flip-left">
+                        <img class="md:px-10 pt-3" src="img/female.svg" alt="male" />
+                        <h1 class="mt-2 mb-1 font-poppins text-center">Windi Sari</h1>
+                        <h4 class="mt-2 mb-3 font-poppins text-center text-sm text-gray-500">Sekertaris</h3>
+                    </div>
+                    <div class="border bg-gray-200 shadow-lg rounded-md" data-aos="flip-left">
+                        <img class="md:px-10 pt-3" src="img/female.svg" alt="male" />
+                        <h1 class="mt-2 mb-1 font-poppins text-center">Fadhia Chairunnisa</h1>
+                        <h4 class="mt-2 mb-3 font-poppins text-center text-sm text-gray-500">Bendahara</h3>
+                    </div>
+                    <div class="border bg-gray-200 shadow-lg rounded-md" data-aos="flip-left">
+                        <img class="md:px-10 pt-3" src="img/male.svg" alt="male" />
+                        <h1 class="mt-2 mb-1 font-poppins text-center">Adi Muhammad Haekal</h1>
+                        <h4 class="mt-2 mb-3 font-poppins text-center text-sm text-gray-500">Sie. Acara</h3>
+                    </div>
+                    <div class="border bg-gray-200 shadow-lg rounded-md" data-aos="flip-left">
+                        <img class="md:px-10 pt-3" src="img/male.svg" alt="male" />
+                        <h1 class="mt-2 mb-1 font-poppins text-center">Lukmanul Hakim</h1>
+                        <h4 class="mt-2 mb-3 font-poppins text-center text-sm text-gray-500">Sie. Acara</h3>
+                    </div>
+                    <div class="border bg-gray-200 shadow-lg rounded-md" data-aos="flip-left">
+                        <img class="md:px-10 pt-3" src="img/male.svg" alt="male" />
+                        <h1 class="mt-2 mb-1 font-poppins text-center">Rulli Andrean</h1>
+                        <h4 class="mt-2 mb-3 font-poppins text-center text-sm text-gray-500">Sie. Acara</h3>
+                    </div>
+                    <div class="border bg-gray-200 shadow-lg rounded-md" data-aos="flip-left">
+                        <img class="md:px-10 pt-3" src="img/female.svg" alt="male" />
+                        <h1 class="mt-2 mb-1 font-poppins text-center">Sarah Ratna</h1>
+                        <h4 class="mt-2 mb-3 font-poppins text-center text-sm text-gray-500">Sie. Acara</h3>
+                    </div>
+                    <div class="border bg-gray-200 shadow-lg rounded-md" data-aos="flip-left">
+                        <img class="md:px-10 pt-3" src="img/male.svg" alt="male" />
+                        <h1 class="mt-2 mb-1 font-poppins text-center">Gilang Prasetyo</h1>
+                        <h4 class="mt-2 mb-3 font-poppins text-center text-sm text-gray-500">Sie. Perlengkapan</h3>
+                    </div>
+                    <div class="border bg-gray-200 shadow-lg rounded-md" data-aos="flip-left">
+                        <img class="md:px-10 pt-3" src="img/male.svg" alt="male" />
+                        <h1 class="mt-2 mb-1 font-poppins text-center">Agung Gumelar Mujianto</h1>
+                        <h4 class="mt-2 mb-3 font-poppins text-center text-sm text-gray-500">Sie. Perlengkapan</h3>
+                    </div>
+                    <div class="border bg-gray-200 shadow-lg rounded-md" data-aos="flip-left">
+                        <img class="md:px-10 pt-3" src="img/female.svg" alt="male" />
+                        <h1 class="mt-2 mb-1 font-poppins text-center">Aniva Rosalia</h1>
+                        <h4 class="mt-2 mb-3 font-poppins text-center text-sm text-gray-500">Sie. Perlengkapan</h3>
+                    </div>
+                    <div class="border bg-gray-200 shadow-lg rounded-md" data-aos="flip-left">
+                        <img class="md:px-10 pt-3" src="img/female.svg" alt="male" />
+                        <h1 class="mt-2 mb-1 font-poppins text-center">Aretha Selmawandi</h1>
+                        <h4 class="mt-2 mb-3 font-poppins text-center text-sm text-gray-500">Sie. Perlengkapan</h3>
+                    </div>
+                    <div class="border bg-gray-200 shadow-lg rounded-md" data-aos="flip-left">
+                        <img class="md:px-10 pt-3" src="img/male.svg" alt="male" />
+                        <h1 class="mt-2 mb-1 font-poppins text-center">Fani Ryan Aditya Warman</h1>
+                        <h4 class="mt-2 mb-3 font-poppins text-center text-sm text-gray-500">Sie. Perlengkapan</h3>
+                    </div>
+                    <div class="border bg-gray-200 shadow-lg rounded-md" data-aos="flip-left">
+                        <img class="md:px-10 pt-3" src="img/male.svg" alt="male" />
+                        <h1 class="mt-2 mb-1 font-poppins text-center">Revan Saputra</h1>
+                        <h4 class="mt-2 mb-3 font-poppins text-center text-sm text-gray-500">Sie. Perlengkapan</h3>
+                    </div>
+                    <div class="border bg-gray-200 shadow-lg rounded-md" data-aos="flip-left">
+                        <img class="md:px-10 pt-3" src="img/male.svg" alt="male" />
+                        <h1 class="mt-2 mb-1 font-poppins text-center">Yudi Setia Arvansyah</h1>
+                        <h4 class="mt-2 mb-3 font-poppins text-center text-sm text-gray-500">Sie. Perlengkapan</h3>
+                    </div>
+                    <div class="border bg-gray-200 shadow-lg rounded-md" data-aos="flip-left">
+                        <img class="md:px-10 pt-3" src="img/male.svg" alt="male" />
+                        <h1 class="mt-2 mb-1 font-poppins text-center">Arif Firmansyah</h1>
+                        <h4 class="mt-2 mb-3 font-poppins text-center text-sm text-gray-500">Sie. Dokumentasi</h3>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <div class="md:hidden overflow-y-auto h-32 pr-5 pl-5 font-poppins">
+    <div class="border bg-gray-200 shadow-lg rounded">
+        <div class="col-span-12">
+            <div class="grid grid-cols-12 pt-2 pb-2">
+                <div class="col-span-2 pt-1 pl-3"><img src="img/male.svg" alt=""></div>
+                <div class="col-span-7 pl-3 pt-1">
+                    <p>Rafi Hendrawan Putra</p>
+                    <p class="text-xs text-gray-500">Ketua</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="border bg-gray-200 shadow-lg rounded">
+        <div class="col-span-12">
+            <div class="grid grid-cols-12 pt-2 pb-2">
+                <div class="col-span-2 pt-1 pl-3"><img src="img/male.svg" alt=""></div>
+                <div class="col-span-7 pl-3 pt-1">
+                    <p>Aditya Yogi Pratama</p>
+                    <p class="text-xs text-gray-500">Wakil Ketua</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="border bg-gray-200 shadow-lg rounded">
+        <div class="col-span-12">
+            <div class="grid grid-cols-12 pt-2 pb-2">
+                <div class="col-span-2 pt-1 pl-3"><img src="img/female.svg" alt=""></div>
+                <div class="col-span-7 pl-3 pt-1">
+                    <p>Salsabila Listiana</p>
+                    <p class="text-xs text-gray-500">Sekertaris</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="border bg-gray-200 shadow-lg rounded">
+        <div class="col-span-12">
+            <div class="grid grid-cols-12 pt-2 pb-2">
+                <div class="col-span-2 pt-1 pl-3"><img src="img/female.svg" alt=""></div>
+                <div class="col-span-7 pl-3 pt-1">
+                    <p>Windi Sari</p>
+                    <p class="text-xs text-gray-500">Sekertaris</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="border bg-gray-200 shadow-lg rounded">
+        <div class="col-span-12">
+            <div class="grid grid-cols-12 pt-2 pb-2">
+                <div class="col-span-2 pt-1 pl-3"><img src="img/female.svg" alt=""></div>
+                <div class="col-span-7 pl-3 pt-1">
+                    <p>Fadhia Chairunnisa</p>
+                    <p class="text-xs text-gray-500">Bendahara</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="border bg-gray-200 shadow-lg rounded">
+        <div class="col-span-12">
+            <div class="grid grid-cols-12 pt-2 pb-2">
+                <div class="col-span-2 pt-1 pl-3"><img src="img/male.svg" alt=""></div>
+                <div class="col-span-7 pl-3 pt-1">
+                    <p>Adi Muhammad Haekal</p>
+                    <p class="text-xs text-gray-500">Sie. Acara</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="border bg-gray-200 shadow-lg rounded">
+        <div class="col-span-12">
+            <div class="grid grid-cols-12 pt-2 pb-2">
+                <div class="col-span-2 pt-1 pl-3"><img src="img/male.svg" alt=""></div>
+                <div class="col-span-7 pl-3 pt-1">
+                    <p>Lukmanul Hakim</p>
+                    <p class="text-xs text-gray-500">Sie. Acara</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="border bg-gray-200 shadow-lg rounded">
+        <div class="col-span-12">
+            <div class="grid grid-cols-12 pt-2 pb-2">
+                <div class="col-span-2 pt-1 pl-3"><img src="img/male.svg" alt=""></div>
+                <div class="col-span-7 pl-3">
+                    <p>Rulli Andrean</p>
+                    <p class="text-xs text-gray-500">Sie. Acara</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="border bg-gray-200 shadow-lg rounded">
+        <div class="col-span-12">
+            <div class="grid grid-cols-12 pt-2 pb-2">
+                <div class="col-span-2 pt-1 pl-3"><img src="img/female.svg" alt=""></div>
+                <div class="col-span-7 pl-3 pt-1">
+                    <p>Sarah Ratna</p>
+                    <p class="text-xs text-gray-500">Sie. Acara</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="border bg-gray-200 shadow-lg rounded">
+        <div class="col-span-12">
+            <div class="grid grid-cols-12 pt-2 pb-2">
+                <div class="col-span-2 pt-1 pl-3"><img src="img/male.svg" alt=""></div>
+                <div class="col-span-7 pl-3 pt-1">
+                    <p>Gilang Prasetyo</p>
+                    <p class="text-xs text-gray-500">Sie. Perlengkapan</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="border bg-gray-200 shadow-lg rounded">
+        <div class="col-span-12">
+            <div class="grid grid-cols-12 pt-2 pb-2">
+                <div class="col-span-2 pt-1 pl-3"><img src="img/male.svg" alt=""></div>
+                <div class="col-span-7 pl-3 pt-1">
+                    <p>Agung Gumelar Mujianto/p>
+                    <p class="text-xs text-gray-500">Sie. Perlengkapan</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="border bg-gray-200 shadow-lg rounded">
+        <div class="col-span-12">
+            <div class="grid grid-cols-12 pt-2 pb-2">
+                <div class="col-span-2 pt-1 pl-3"><img src="img/female.svg" alt=""></div>
+                <div class="col-span-7 pl-3 pt-1">
+                    <p>Aniva Rosalia</p>
+                    <p class="text-xs text-gray-500">Sie. Perlengkapan</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="border bg-gray-200 shadow-lg rounded">
+        <div class="col-span-12">
+            <div class="grid grid-cols-12 pt-2 pb-2">
+                <div class="col-span-2 pt-1 pl-3"><img src="img/female.svg" alt=""></div>
+                <div class="col-span-7 pl-3 pt-1">
+                    <p>Aretha Selmawandi</p>
+                    <p class="text-xs text-gray-500">Sie. Perlengkapan</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="border bg-gray-200 shadow-lg rounded">
+        <div class="col-span-12">
+            <div class="grid grid-cols-12 pt-2 pb-2">
+                <div class="col-span-2 pt-1 pl-3"><img src="img/male.svg" alt=""></div>
+                <div class="col-span-7 pl-3">
+                    <p>Fani Ryan Aditya Warman</p>
+                    <p class="text-xs text-gray-500">Sie. Perlengkapan</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="border bg-gray-200 shadow-lg rounded">
+        <div class="col-span-12">
+            <div class="grid grid-cols-12 pt-2 pb-2">
+                <div class="col-span-2 pt-1 pl-3"><img src="img/male.svg" alt=""></div>
+                <div class="col-span-7 pl-3 pt-1">
+                    <p>Revan Saputra</p>
+                    <p class="text-xs text-gray-500">Sie. Perlengkapan</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="border bg-gray-200 shadow-lg rounded">
+        <div class="col-span-12">
+            <div class="grid grid-cols-12 pt-2 pb-2">
+                <div class="col-span-2 pt-1 pl-3"><img src="img/male.svg" alt=""></div>
+                <div class="col-span-7 pl-3 ">
+                    <p>Yudi Setia Arvansyah</p>
+                    <p class="text-xs text-gray-500">Sie. Perlengkapan</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="border bg-gray-200 shadow-lg rounded">
+        <div class="col-span-12">
+            <div class="grid grid-cols-12 pt-2 pb-2">
+                <div class="col-span-2 pt-1 pl-3"><img src="img/male.svg" alt=""></div>
+                <div class="col-span-7 pl-3 pt-1">
+                    <p>Arif Firmansyah</p>
+                    <p class="text-xs text-gray-500">Sie. Dokumentasi</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+    <!-- End Anggota -->
+
+    <div class="border rounded-md bg-white shadow" id="kontak" data-aos="flip-up">
+        <div class="bg-red-500 rounded">
+            <h1 class="pt-2 pb-2 ml-5 text-white">Kontak</h1>
+        </div>
+        <div>
+            <p class="pt-3 pb-2 md:pb-2 ml-5">Nama: Cakra Rusmana</p>
+            <p class="pt-1 pb-2 md:pb-2 ml-5">Klik Disini : <a class="text-sky-500" href="https://wa.me/081903070795">Cakra Rusmana</a></p>
+            <p class="pt-1 pb-2 md:pb-2 ml-5">Jabatan : Pengurus Pemuda Rt 03</p>
+            <p class="pt-3 pb-2 md:pb-2 ml-5">Raffi Hendrawan Putra</p>
+            <p class="pt-1 pb-2 md:pb-2 ml-5">Klik Disini : <a class="text-sky-500" href="https://wa.me/088905800297">Raffi Hendrawan Putra</a></p>
+            <p class="pt-1 pb-2 md:pb-2 ml-5">Jabatan : Ketua Panitia Lomba</p>
+
+        </div>
+        <!-- <img class="px-3 md:px-10 pt-3 pb-4 md:pt-5 md:pb-10" src="img/xc/Toxic.JPG" alt="Rendy Bocah Tengil"> -->
+    </div>
+    <!-- pesan/kesan -->
+    <section class="comment section" id="comment">
+        <div class="bg-stone-100 h-auto">
+            <div class="container mx-auto pt-5 pb-10 font-poppins">
+                <h1 class="text-center text-4xl text-extrabold text-red-600 font-poppins pt-3 md:pt-6 pb-5 md:pb-10 px-20"><strong>Pesan & Kesan</strong></h1>
+                <div class="grid grid-cols-1 md:grid-cols-2">
+                    <div class="w-full pt-1 px-5 md:px-32 md:h-full pt-3 md:pt-0 pb-2 md:pb-0" data-aos="fade-right">
+                        <img src="img/pemegangbendera.png" alt="GambarXC" />
+                    </div>
+    
+                    <div class="ml-3 mt-2 md:mt-0">
+                      <div class="bg-emerald-200 border border-emerald-400 text-emerald-700 my-3 mx-4 w-5/6 px-7 py-2 rounded relative hidden my-alert" role="alert">
+                        <p><strong class="font-bold">Terima Kasih!</strong> Pesan anda sudah kami terima.</p>
+                        <!-- <span class="absolute top-0 bottom-0 right-0 px-4 py-5 md:py-2">
+                          <svg class="fill-current h-6 w-6 text-elmerald-700" role="button" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><title>Close</title><path d="M14.348 14.849a1.2 1.2 0 0 1-1.697 0L10 11.819l-2.651 3.029a1.2 1.2 0 1 1-1.697-1.697l2.758-3.15-2.759-3.152a1.2 1.2 0 1 1 1.697-1.697L10 8.183l2.651-3.031a1.2 1.2 0 1 1 1.697 1.697l-2.758 3.152 2.758 3.15a1.2 1.2 0 0 1 0 1.698z"/></svg>
+                        </span> -->
+                      </div>
+                      <form name="xc-comment-form">
+                        <div class="flex-col">
+                          <input type="text" class="my-3 mx-4 w-5/6 px-7 py-2 rounded-md drop-shadow-md" name="nama" placeholder="Nama">
+                          <input type="email" class="my-3 mx-4 w-5/6 px-7 py-2 rounded-md drop-shadow-md" name="email" placeholder="Email">
+                          <textarea class="my-3 mx-4 px-7 py-3 w-5/6 rounded-md drop-shadow-md" id="" cols="30" rows="5" name="pesan_&_kesan" placeholder="Pesan & Kesan"></textarea>
+                          <button type="submit" class="btn-kirim my-3 mx-4 py-2 px-8 border rounded-md bg-red-700 hover:bg-red-400 duration-200 text-white">Send</button>
+                          <button type="button" class="btn-loading hidden inline-flex items-center px-4 py-2 font-semibold leading-6 text-sm shadow rounded-md text-white bg-indigo-500 hover:bg-indigo-400 transition ease-in-out duration-150 cursor-not-allowed ml-4" disabled="">
+                            <svg class="animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                              <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                              <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                            </svg>
+                            Processing...
+                          </button>
+                        </div>
+                      </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- pesan/kesan -->
+
+  <!-- Footer -->
+  <div class="bg-red-700 h-auto">
+    <div class="container mx-auto font-poppins">
+      <p class="text-white text-center pt-10 pb-10">
+        © 2023. <a class="text-red-300 md:hover:text-white" href="#">Mhanks</a>. All Right Reserved
+      </p>
+    </div>
+  </div>
+  <!-- Footer -->
+
+  <!-- JavaScript -->
+    <!-- Scroll Back to Top -->
+    <script src="js/up_btn.js"></script>
+    <script>
+    up({});
+    </script>
+    <!-- Scroll Back to Top -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby2DmiB-SnjEZuQvz850BEVeicdMuGJNurheC5xiKGeDW5EgLKBlwXC1vyqMKalspYa/exec'
+        const form = document.forms['xc-comment-form']
+        const btnKirim = document.querySelector('.btn-kirim')
+        const btnLoading = document.querySelector('.btn-loading')
+        const myAlert = document.querySelector('.my-alert')
+  
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+  
+          <!-- tampil-tloading-hilang-tkirim -->
+          btnLoading.classList.toggle('hidden')
+          btnKirim.classList.toggle('hidden')
+  
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+              
+              <!-- tampil-tkirim-hilang-tloading -->
+              btnLoading.classList.toggle('hidden')
+              btnKirim.classList.toggle('hidden')
+  
+              <!-- tampilkan-alert -->
+              myAlert.classList.toggle('hidden')
+              
+              <!-- reset-form -->
+              form.reset()
+              console.log('Success!', response)
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+  <!-- End JavaScript -->
+
+</body>
+</html>
